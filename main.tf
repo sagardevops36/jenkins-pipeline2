@@ -6,7 +6,7 @@ provider "aws" {
 #### S3 Bucket Terraform ####
 
 resource "aws_s3_bucket" "bucket" {
-  bucket = "today-is-tuesday-27th-july"
+  bucket = "today-is-tuesday-14-sep"
   acl    = "private"
 
   tags = {
